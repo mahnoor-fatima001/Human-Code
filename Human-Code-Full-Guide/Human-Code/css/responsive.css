@@ -1,0 +1,15 @@
+/* Additional responsive safeguards */
+
+@media (max-width: 900px) {
+  .hero-text { max-width: 100%; }
+  .feature-image, .feature-image img { min-height: 430px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

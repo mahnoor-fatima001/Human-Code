@@ -1,0 +1,10 @@
+HUMAN CODE — WEBSITE DESCRIPTION
+Created by Mahnoor Fatima
+
+Human Code is a responsive, static educational website designed to help beginners explore psychology and human behavior through structured learning paths, concise explanations, practical examples, and reflection. Topics include human psychology, cognitive biases, behavioral patterns, emotional intelligence, communication, social influence, persuasion, manipulation awareness, attraction, and relationships.
+
+The website includes a home page, ten course paths, a glossary with search, a resource hub, an About page, a learning dashboard, progress and bookmark pages, and browser-based progress utilities. It is built with HTML5, CSS3, and vanilla JavaScript. No server, account, database, or build process is required. Some progress data is stored only in the user's current browser through local storage.
+
+Purpose: support evidence-aware learning, curiosity, empathy, clear communication, ethical influence, and healthier boundaries. Psychological concepts are context-sensitive and should not be used to diagnose, stereotype, control, or manipulate people. This educational website is not professional psychological or medical advice.
+
+To run: extract the project folder and open index.html in a modern browser, or serve the folder locally with an editor extension such as Live Server. Preserve the original relative folder structure for CSS, JavaScript, and media paths.

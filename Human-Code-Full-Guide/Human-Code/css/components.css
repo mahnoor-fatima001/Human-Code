@@ -1,0 +1,39 @@
+/* Reusable visual components for Human Code */
+
+.card-hover {
+  transition: transform .25s ease, border-color .25s ease, background .25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255,225,226,.18);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(111,29,43,.15);
+  color: #c98993;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.quote-card {
+  padding: 28px;
+  border: 1px solid rgba(255,225,226,.1);
+  border-radius: 18px;
+  background: #151012;
+}
+
+.quote-card blockquote {
+  color: #eee5e3;
+  font-family: "Playfair Display", serif;
+  font-size: 1.35rem;
+  line-height: 1.45;
+}
+
+.divider-space { height: 1px; background: rgba(255,225,226,.08); margin: 50px 0; }

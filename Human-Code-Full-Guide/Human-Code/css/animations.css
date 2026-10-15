@@ -1,0 +1,26 @@
+/* Subtle premium motion. No decorative motion is applied to text. */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-hero,
+.hero-copy,
+.hero-media {
+  animation: fadeUp .8s ease both;
+}
+
+.course-card,
+.stat-card,
+.glossary-card,
+.resource-card,
+.lesson-row {
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-hero,
+  .hero-copy,
+  .hero-media { animation: none; }
+}
